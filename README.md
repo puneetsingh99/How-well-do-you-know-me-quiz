@@ -3,5 +3,5 @@
 
  # How to play?
  Go to about section of this repo and click on the link which will take you to the repl.it. 
- There click on the green play button and the quiz will start.
+ There click on the green "Run" button and the quiz will start.
  All the best!
