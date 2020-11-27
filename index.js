@@ -34,20 +34,46 @@ function quiz(){
   console.log();
   var q3 = readLineSync.question('Do I live in Bangalore?(yes/no)');
 
-  if(q3 === 'yes'){
-    console.log('You are wrong');
-    console.log();  
-  }
-  else{
+  if(q3 === 'no'){
     score++;
     console.log('You are right!');
-    console.log("score: ", score);  
+    console.log("score: ", score); 
+  }
+  else{
+    console.log('You are wrong');
+    console.log();   
   }
 
   console.log();
   var q4 = readLineSync.question('Do I like cricket?(yes/no)');
 
   if(q4 === 'yes'){
+    score++;
+    console.log('You are right!');
+    console.log("score: ", score);    
+  }
+  else{
+    console.log('You are wrong');
+    console.log()
+  }
+
+  console.log();
+  var q5 = readLineSync.question('Was I born in Mumbai?(yes/no)');
+
+  if(q5 === 'no'){
+    score++;
+    console.log('You are right!');
+    console.log("score: ", score); 
+  }
+  else{
+    console.log('You are wrong');
+    console.log();   
+  }
+
+  console.log();
+  var q6 = readLineSync.question('Do I like anime?(yes/no)');
+
+  if(q6 === 'yes'){
     score++;
     console.log('You are right!');
     console.log("score: ", score);    
